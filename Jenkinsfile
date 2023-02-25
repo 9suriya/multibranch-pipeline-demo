@@ -1,8 +1,8 @@
 pipeline {
 
-    agent {
+    agent any {
         node {
-            label 'master'
+            
         }
     }
 
